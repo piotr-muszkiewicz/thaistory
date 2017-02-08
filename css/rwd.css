@@ -1,0 +1,305 @@
+@media all and (max-width: 1170px) {
+    .gallery .gallery-item {
+        height: 150px;
+    }
+}
+@media all and (max-width: 1000px) {
+    .scroll-top {
+        right: 15px;
+    }
+    .nav .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact .contact-inner,
+    .about-us .about-us-inner {
+        padding-bottom: 200px;
+        background-position: center bottom;
+        min-height: 0;
+        float: left;
+        width: 100%;
+    }
+    .contact .contact-inner {
+        padding-bottom: 350px !important;
+    }
+    .contact .contact-right,
+    .about-us .about-us-right {
+        width: 100%;
+    }
+    .gallery .gallery-item {
+        width: 33.3333% !important;
+        height: 200px;
+    }
+    .gallery .gallery-item:nth-last-child(2),
+    .gallery .gallery-item:nth-last-child(1) {
+        width: 50% !important;
+    }
+    .menu-list {
+        width: 70%;
+    }
+    .nav-menu {
+        width: 25%;
+    }
+    .menu-list .pdf {
+        left: 17%;
+    }
+}
+@media all and (max-width: 767px) {
+    h1 {
+        background-size: auto 80px;
+        font-size: 48px;
+    }
+    .header .logo {
+        width: 206px;
+    }
+    .about-us {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .about-us .about-us-inner {
+        float: none;
+        width: auto;
+        margin: 0 -15px;
+        overflow: hidden;
+        background-size: 280px auto;
+        padding-top: 0;
+        background-position: center 120px;
+    }
+    .about-us .about-us-right .about-us-text {
+        box-shadow: none;
+    }
+    .about-us .about-us-inner {
+        padding-bottom: 0;
+    }
+    .about-us .about-us-right .about-us-text p {
+        font-size: 13px;
+    }
+    .about-us .about-us-right .about-us-text {
+        padding: 25px;
+        margin-top: 235px;
+    }
+    .contact .contact-right #map {
+        width: 100%;
+        height: 235px;
+    }
+    .contact .contact-right .contact-info {
+        box-shadow: none;
+    }
+    .contact .contact-right .contact-text {
+        float: left;
+        width: 100%;
+        padding: 40px 0;
+    }
+    .contact .contact-inner {
+        padding-bottom: 0 !important;
+        background: none !important;
+    }
+    .footer .footer-right {
+        display: none;
+    }
+    .footer .footer-left {
+        text-align: center;
+        width: 100%;
+    }
+    .scroll-top {
+        display: none !important;
+    }
+    .gallery {
+        background: none;
+        padding-bottom: 20px;
+    }
+    .menu-toggle {
+        position: absolute;
+        right: 15px;
+        top:20px;
+        background: url("../images/menu.png");
+        width: 47px;
+        height: 34px;
+        z-index: 100;
+    }
+    .menu-toggle.open {
+        opacity: 0;
+    }
+    .header {
+        height: 230px;
+    }
+    .nav {
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        background: rgba(139,204,197,0.9);
+        height: 100vh;
+        padding: 60px 0;
+        opacity: 0;
+        visibility: hidden;
+        min-height: 540px;
+    }
+    .nav.open {
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:50%;
+        overflow: hidden;
+        margin-top: -210px;
+    }
+    .nav ul {
+        display: block;
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 20px 0 !important;
+    }
+    .nav .menu li {
+        display: block !important;
+        margin: 10px 0;
+    }
+    .nav .menu li a {
+        font-size: 38px;
+        color: #22211f;
+        font-weight: 300;
+    }
+    .nav .menu li a:hover,
+    .nav .menu li.current a {
+        color: #FFF !important;
+    }
+    .nav .social li {
+        margin: 0 10px;
+    }
+    .nav .social li a {
+        width: 34px;
+        height: 34px;
+    }
+    .nav .social li a.fb {
+        background: url("../images/fb-black.png");
+    }
+    .nav .social li a.in {
+        background: url("../images/insta-black.png");
+    }
+    .nav .lang li a {
+        font-size: 38px;
+        color: #22211f;
+        font-weight: 300;
+    }
+    .nav .lang li.current a,
+    .nav .lang li a:hover {
+        color: #FFF !important;
+    }
+    .menu-close {
+        position: absolute;
+        right: 15px;
+        top:15px;
+        background: url("../images/close.png");
+        width: 46px;
+        height: 46px;
+        z-index: 102;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu-close.open {
+        opacity: 1;
+        visibility: visible;
+    }
+    .gallery .gallery-item {
+        width: 50% !important;
+    }
+    .gallery .gallery-item:nth-last-child(1) {
+        width: 100% !important;
+    }
+    .nav-menu {
+        margin: 30px auto 20px auto;
+        float: none;
+        max-width: 320px;
+        width: 100%;
+        position: relative;
+    }
+    .nav-menu:after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        top:11px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #000;
+    }
+    .nav-menu:before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top:11px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #000;
+    }
+    .nav-menu .select {
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-menu .select .customSelect {
+        text-align: center;
+        font-size: 24px;
+        color: #8bccc5;
+        width: 100% !important;
+    }
+    .nav-menu .select .customSelect .customSelectInner {
+        width: 100% !important;
+    }
+    .nav-menu select {
+        width: 100% !important;
+        height: 40px !important;
+    }
+    .nav-menu ul {
+        display: none;
+    }
+    .menu-restaurant h1 {
+        max-width: 100%;
+        margin: 30px 0 10px 0;
+    }
+    .menu-list {
+        width: 100%;
+    }
+    .menu-list .menu-item {
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 300px 0 0 0;
+    }
+    .menu-list .menu-item .menu-bg {
+        right: auto;
+        left: 50%;
+        max-width: 320px;
+        height: 270px;
+        margin-left: -160px;
+    }
+    .menu-list .menu-item-content {
+        padding: 0;
+        max-width: 100%;
+        min-height: 0;
+        background: none;
+        box-shadow: none;
+    }
+    .menu-list .pdf {
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -o-transform:translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+        line-height: 43px;
+        font-size: 17px;
+        bottom: -50px;
+    }
+}
